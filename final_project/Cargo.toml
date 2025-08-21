@@ -1,0 +1,9 @@
+[package]
+name = "final_project"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+    ureq = "2.9.1" # Or the latest compatible version
+    chrono = { version = "0.4.38", features = ["serde"] } # Or the latest compatible version
+    num_cpus = "1.16.0" # Or the latest compatible version
